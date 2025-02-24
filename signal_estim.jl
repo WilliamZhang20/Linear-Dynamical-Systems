@@ -3,7 +3,7 @@ using Plots
 using ToeplitzMatrices
 
 include("readclassjson.jl")
-data = readclassjson("recursive.json")
+data = readclassjson("mid22_Data/recursive.json")
 
 w = data["w"]
 x = data["x"]
